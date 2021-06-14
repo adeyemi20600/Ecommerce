@@ -1,0 +1,36 @@
+.container-fluid {
+    /* background-image: url(''); */
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.wrapper {
+    width: 30%;
+    border: 0.2px solid rgb(177, 165, 165);
+    height: 50%;
+    box-shadow: 4px 4px 4px -1px rgb(136, 135, 135);
+    padding: 30px 30px;
+    background-color: rgba(177, 165, 165, 0.1);
+}
+.login-header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin: 5px 0px 10px 0px;
+    font-weight: 300;
+}
+
+.login-header2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin: 15px 0px 10px 0px;
+    font-weight: 300;
+}
+
+.text-danger {
+    font-size: 0.8em;
+}
